@@ -5,7 +5,7 @@ license="All rights reserved"
 
 [[mods]] #mandatory
 modId="sqlite_jdbc"
-version="${file.jarVersion}"
+version="3.36.0.3"
 displayName="SQLite JDBC"
 #updateJSONURL="http://myurl.me/"
 displayURL="https://kosma.pl/"
