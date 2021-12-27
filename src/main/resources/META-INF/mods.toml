@@ -1,14 +1,15 @@
-modLoader="javafml" #mandatory
-loaderVersion="[25,)" #mandatory
-#issueTrackerURL="http://my.issue.tracker/" #optional
+modLoader="javafml"
+loaderVersion="[25,)"
+#issueTrackerURL="http://my.issue.tracker/"
+license="All rights reserved"
+
 [[mods]] #mandatory
-modId="examplemod" #mandatory
-version="${file.jarVersion}" #mandatory
-displayName="SQLite JDBC" #mandatory
-#updateJSONURL="http://myurl.me/" #optional
-displayURL="https://kosma.pl/" #optional
-#logoFile="logo.png" #optional
-#credits="Thanks for this example mod goes to Java" #optional
-# A text field displayed in the mod UI
-authors="xerial, Kosmolot" #optional
+modId="sqlite_jdbc"
+version="${file.jarVersion}"
+displayName="SQLite JDBC"
+#updateJSONURL="http://myurl.me/"
+displayURL="https://kosma.pl/"
+#logoFile="logo.png"
+#credits="Thanks for this example mod goes to Java"
+authors="xerial, Kosmolot"
 description='''SQLite JDBC Driver'''

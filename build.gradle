@@ -7,6 +7,9 @@ buildscript {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
     }
 }
+plugins {
+    id "com.github.johnrengelman.shadow" version "4.0.4"
+}
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
@@ -90,6 +93,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
+    implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
@@ -106,6 +110,14 @@ jar {
         ])
     }
 }
+
+shadowJar {
+    dependencies {
+        include(dependency('org.xerial:sqlite-jdbc:.*'))
+    }
+}
+
+jar.finalizedBy('shadowJar')
 
 // Example configuration to allow publishing using the maven-publish task
 // we define a custom artifact that is sourced from the reobfJar output task
