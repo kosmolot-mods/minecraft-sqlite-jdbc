@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="[25,)"
-issueTrackerURL="github.com/kosma/sqlite-jdbc/issues"
-license="All rights reserved"
+issueTrackerURL="https://github.com/kosma/sqlite-jdbc/issues"
+license="Apache"
 
 [[mods]]
 modId="sqlite_jdbc"

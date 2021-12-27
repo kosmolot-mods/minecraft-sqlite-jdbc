@@ -8,6 +8,11 @@
     "xerial",
     "Kosmolot"
   ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/sqlite-jdbc",
+    "issues": "https://github.com/kosma/sqlite-jdbc/issues",
+    "sources": "https://github.com/kosma/sqlite-jdbc"
+  },
   "license": "Apache",
   "icon": "icon.png"
 }
