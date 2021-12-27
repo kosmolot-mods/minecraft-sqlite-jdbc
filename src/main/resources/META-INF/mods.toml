@@ -8,6 +8,6 @@ modId="sqlite_jdbc"
 version="3.36.0.3"
 displayName="SQLite JDBC"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/sqlite-jdbc"
-#logoFile="logo.png"
+logoFile="icon.png"
 authors="xerial, Kosmolot"
 description='''SQLite JDBC Driver for Fabric and Forge'''
