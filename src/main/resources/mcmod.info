@@ -1,0 +1,12 @@
+[
+{
+  "modid": "sqlite_jdbc",
+  "name": "SQLite JDBC",
+  "description": "SQLite JDBC Driver for Fabric and Forge",
+  "version": "3.36.0.3",
+  "mcversion": "",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/sqlite-jdbc",
+  "authorList": ["xerial", "Kosmolot"],
+  "logoFile": "icon.png"
+}
+]
