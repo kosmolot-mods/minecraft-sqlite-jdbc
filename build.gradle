@@ -7,14 +7,20 @@ repositories {
     mavenCentral()
 }
 
-version = '3.36.0.3'
 group = 'pl.kosma' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'sqlite-jdbc'
+version = "${project.sqlite_version}+${project.date_version}"
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
 dependencies {
-    implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
+    implementation "org.xerial:sqlite-jdbc:${project.sqlite_version}"
+}
+
+processResources {
+    filesMatching(['fabric.mod.json', 'mcmod.info', 'META-INF/mods.toml']) {
+        expand "version": project.version
+    }
 }
 
 jar {

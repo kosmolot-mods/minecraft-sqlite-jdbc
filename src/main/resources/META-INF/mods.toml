@@ -5,7 +5,7 @@ license="Apache"
 
 [[mods]]
 modId="sqlite_jdbc"
-version="3.36.0.3"
+version="${version}"
 displayName="SQLite JDBC"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/sqlite-jdbc"
 logoFile="icon.png"
