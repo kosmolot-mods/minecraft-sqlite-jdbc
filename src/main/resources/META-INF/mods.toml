@@ -1,15 +1,13 @@
 modLoader="javafml"
 loaderVersion="[25,)"
-#issueTrackerURL="http://my.issue.tracker/"
+issueTrackerURL="github.com/kosma/sqlite-jdbc/issues"
 license="All rights reserved"
 
-[[mods]] #mandatory
+[[mods]]
 modId="sqlite_jdbc"
 version="3.36.0.3"
 displayName="SQLite JDBC"
-#updateJSONURL="http://myurl.me/"
-displayURL="https://kosma.pl/"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/sqlite-jdbc"
 #logoFile="logo.png"
-#credits="Thanks for this example mod goes to Java"
 authors="xerial, Kosmolot"
-description='''SQLite JDBC Driver'''
+description='''SQLite JDBC Driver for Fabric and Forge'''
