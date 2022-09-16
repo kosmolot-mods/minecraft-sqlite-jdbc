@@ -6,4 +6,4 @@ SQLite JDBC driver for use as an external library/optional dependency by other p
 * This mod is a direct repackage of the [Xerial SQLite JDBC Driver](https://github.com/xerial/sqlite-jdbc) with added mod metadata to allow it to be loaded on Fabric and Forge.
 * There are no modifications to the underlying JDBC driver.
 
-This mod is a universal JAR and should work on all Fabric and Forge versions.
+This mod is a universal JAR and runs on all versions of Forge/Fabric/Spigot from 1.12.2 to current.
